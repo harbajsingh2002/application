@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bus Ticket Booking System</title>
+    <link rel="stylesheet" href="/assets/style3.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1> Welcome To HRTC   </h1>
+        <p>welcom to harbaj transport company</p>
+        <form id="bookingForm">
+            <div class="form-group">
+                <label for="departure">Departure City:</label>
+                <select id="departure" class="input">
+                    <option value="">Select Departure City</option>
+                    <option value="">chandighar</option>
+                    <option value="">kullu</option>
+                    <option value="">mandi</option>
+                    <option value="">bilaspur</option>
+                    <option value="">pathankot</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="arrival">Arrival City:</label>
+                <select id="arrival" class="input">
+                    <option value="">Select Arrival City</option>
+                    <option value="">kangra</option>
+                    <option value="">dharmashala</option>
+                    <option value="">hamirpur</option>
+                    <option value="">manali</option>
+                    <option value="">amritsar</option>
+                </select>
+            </div><div class="form-group">
+                <label for="departure">Departure Date:</label>
+                <input type="date" id="departure" class="input">
+              </div>
+          
+              <div class="form-group">
+                <label for="busType">Bus Type:</label>
+                <select id="busType" class="input">
+                  <option value="">Select Bus Type</option>
+                  <option value="AC">AC</option>
+                  <option value="NON_AC">NON-AC</option>
+                </select>
+              </div>
+          
+              <button onclick="window.location.href='./index4.html';"  type="submit" class="button" style="margin-left: 45%;">Search</button>
+            </form>
+          
+            <div class="promo-section">
+              <h2>Why Book with Us?</h2>
+              <ul>
+                <li>Wide range of bus operators and routes</li>
+                <li>Competitive prices and discounts</li>
+                <li>Secure and convenient online booking</li>
+                <li>24/7 customer support</li>
+              </ul>
+            </div>
+          </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
